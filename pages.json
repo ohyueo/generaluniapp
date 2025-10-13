@@ -1,0 +1,473 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+				//#ifdef H5
+				,"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+				//#endif
+			}
+		},
+		{
+			"path": "pages/index/home",
+			"style": {
+				"navigationBarTitleText": "首页"
+				//#ifdef H5
+				,"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+				//#endif
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+				//#ifdef H5
+				,"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+				//#endif
+			}
+		},
+		{
+			"path": "pages/user/index",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor":"#19be6b"
+				//#ifdef H5
+				,"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+				//#endif
+			}
+		},
+		{
+			"path": "pages/user/about",
+			"style": {
+				"navigationBarTitleText": "关于我们"
+				//#ifdef H5
+				,"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+				//#endif
+			}
+		},
+		{
+			"path": "pages/user/more",
+			"style": {
+				"navigationBarTitleText": "更多资料"
+				//#ifdef H5
+				,"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+				//#endif
+			}
+		},
+		{
+			"path": "pages/user/hexiao",
+			"style": {
+				"navigationBarTitleText": "核销订单"
+				//#ifdef H5
+				,"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+				//#endif
+			}
+		},
+		{
+			"path": "pages/user/userinfo",
+			"style": {
+				"navigationBarTitleText": "用户详情"
+				//#ifdef H5
+				,"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+				//#endif
+			}
+		},
+		{
+			"path": "pages/user/defaultlist",
+			"style": {
+				"navigationBarTitleText": "违约记录"
+				//#ifdef H5
+				,"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+				//#endif
+			}
+		},
+		{
+			"path": "pages/yuyue/index",
+			"style": {
+				"navigationBarTitleText": "预约项目列表"
+				//#ifdef H5
+				,"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+				//#endif
+			}
+		},
+		{
+			"path": "pages/yuyue/class",
+			"style": {
+				"navigationBarTitleText": "分类"
+				//#ifdef H5
+				,"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+				//#endif
+			}
+		},
+		{
+			"path": "pages/yuyue/info",
+			"style": {
+				"navigationBarTitleText": "预约详情"
+				//#ifdef H5
+				,"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+				//#endif
+			}
+		},
+		{
+			"path": "pages/yuyue/time",
+			"style": {
+				"navigationBarTitleText": "选择时间"
+				//#ifdef H5
+				,"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+				//#endif
+			}
+		},
+		{
+			"path": "pages/yuyue/seat",
+			"style": {
+				"navigationBarTitleText": "选择座位"
+				//#ifdef H5
+				,"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+				//#endif
+			}
+		},
+		{
+			"path": "pages/yuyue/person",
+			"style": {
+				"navigationBarTitleText": "选择人员"
+				//#ifdef H5
+				,"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+				//#endif
+			}
+		},
+		{
+			"path": "pages/yuyue/order",
+			"style": {
+				"navigationBarTitleText": "预约订单"
+				//#ifdef H5
+				,"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+				//#endif
+			}
+		},
+		{
+			"path": "pages/pay/payok",
+			"style": {
+				"navigationBarTitleText": "预约成功"
+				//#ifdef H5
+				,"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+				//#endif
+			}
+		},
+		{
+			"path": "pages/pay/paylist",
+			"style": {
+				"navigationBarTitleText": "支付记录"
+				//#ifdef H5
+				,"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+				//#endif
+			}
+		},
+		{
+			"path": "pages/order/myorder",
+			"style": {
+				"navigationBarTitleText": "我的订单"
+				//#ifdef H5
+				,"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+				//#endif
+			}
+		},
+		{
+			"path": "pages/order/myorder_info",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+				//#ifdef H5
+				,"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+				//#endif
+			} 
+		},
+		{
+			"path": "pages/hexiao/list",
+			"style": {
+				"navigationBarTitleText": "核销记录"
+				//#ifdef H5
+				,"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+				//#endif
+			} 
+		},
+		{
+			"path": "pages/texter/noti_info",
+			"style": {
+				"navigationBarTitleText": "详情"
+				//#ifdef H5
+				,"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+				//#endif
+			}
+		},
+		{
+			"path": "pages/texter/text_xieyi",
+			"style": {
+				"navigationBarTitleText": "详情"
+				//#ifdef H5
+				,"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+				//#endif
+			}
+		},
+		{
+			"path": "pages/texter/index",
+			"style": {
+				"navigationBarTitleText": "新闻动态"
+				//#ifdef H5
+				,"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+				//#endif
+			}
+		},
+		{
+			"path": "pages/texter/texter_info",
+			"style": {
+				"navigationBarTitleText": "详情"
+				//#ifdef H5
+				,"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+				//#endif
+			}
+		},
+		{
+			"path": "pages/invitation/invitation",
+			"style": {
+				"navigationBarTitleText": "邀请",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor":"#19be6b"
+				//#ifdef H5
+				,"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+				//#endif
+			}
+		},
+		{
+			"path": "pages/invitation/list",
+			"style": {
+				"navigationBarTitleText": "列表",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor":"#19be6b"
+				//#ifdef H5
+				,"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+				//#endif
+			}
+		},
+		{
+			"path": "pages/invitation/code",
+			"style": {
+				"navigationBarTitleText": "二维码",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor":"#19be6b"
+				//#ifdef H5
+				,"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+				//#endif
+			}
+		},
+		{
+			"path": "pages/invitation/shenqing",
+			"style": {
+				"navigationBarTitleText": "推广员申请",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor":"#19be6b"
+				//#ifdef H5
+				,"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+				//#endif
+			}
+		},
+		{
+			"path": "pages/shop/index",
+			"style": {
+				"navigationBarTitleText": "商城"
+				//#ifdef H5
+				,"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+				//#endif
+			}
+		},
+		{
+			"path": "pages/shop/info",
+			"style": {
+				"navigationBarTitleText": "商品详情"
+				//#ifdef H5
+				,"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+				//#endif
+			}
+		},
+		{
+			"path": "pages/shop/order",
+			"style": {
+				"navigationBarTitleText": "商品订单"
+				//#ifdef H5
+				,"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+				//#endif
+			}
+		},
+		{
+			"path": "pages/shop/search",
+			"style": {
+				"navigationBarTitleText": "商品搜索"
+				//#ifdef H5
+				,"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+				//#endif
+			}
+		},
+		{
+			"path": "pages/shop/myorder",
+			"style": {
+				"navigationBarTitleText": "我的订单"
+				//#ifdef H5
+				,"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+				//#endif
+			}
+		},
+		{
+			"path": "pages/shop/myorder_info",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+				//#ifdef H5
+				,"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+				//#endif
+			}
+		},
+		{
+			"path": "pages/merch/hexiaolist",
+			"style": {
+				"navigationBarTitleText": "核销中心"
+			}
+		},
+		{
+			"path": "pages/merch/board",
+			"style": {
+				"navigationBarTitleText": "预约看板"
+			}
+		},
+		{
+			"path": "pages/merch/yuelist",
+			"style": {
+				"navigationBarTitleText": "预约订单"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "通用预约系统",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#666666",
+		"selectedColor": "#19be6b",
+		"backgroundColor": "#FFFFFF",
+		"borderStyle": "black",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/img/footer/a2.png",
+				"selectedIconPath": "static/img/footer/a1.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/yuyue/index",
+				"iconPath": "static/img/footer/b2.png",
+				"selectedIconPath": "static/img/footer/b1.png",
+				"text": "预约"
+			},
+			{
+				"pagePath": "pages/shop/index",
+				"iconPath": "static/img/footer/c2.png",
+				"selectedIconPath": "static/img/footer/c1.png",
+				"text": "商城"
+			},
+			{
+				"pagePath": "pages/texter/index",
+				"iconPath": "static/img/footer/d2.png",
+				"selectedIconPath": "static/img/footer/d1.png",
+				"text": "发现"
+			},
+			{
+				"pagePath": "pages/user/index",
+				"iconPath": "static/img/footer/e2.png",
+				"selectedIconPath": "static/img/footer/e1.png",
+				"text": "我的"
+			}
+		]
+	},
+	"subpackages":[
+		{
+			"root":"merchant",
+			"pages":[
+				{
+					"path": "user/auth",
+					"style": {
+						"navigationBarTitleText": "商家入驻"
+					}
+				}
+			]
+		}
+	]
+}
